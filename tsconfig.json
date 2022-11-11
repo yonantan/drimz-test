@@ -1,0 +1,23 @@
+{
+  "extends": "ts-node/node16/tsconfig.json",
+  "ts-node": {
+    "swc": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true
+    }
+  },
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react"
+  }
+}
